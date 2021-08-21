@@ -1,4 +1,4 @@
-<p align="center"><img src="https://fluttervikings.com/assets/logo.svg" /></p>
+<p align="center"><img width="200" src="https://fluttervikings.com/assets/logo.svg" /></p>
 <p align="center"><a href="">https://fluttervikings.com/</a></a>
 
 ---
@@ -10,5 +10,3 @@ Quiz game for the "Flutter Vikings" event. The entire project has been created u
 - you can't play the quiz more than once.
 
 Once you clone this repo, you can run unit and widget tests calling `flutter test` and integration tests as well calling `flutter driver --target=test_driver/app.dart`.
-
-<p align="center"><img src="https://github.com/albertodev01/vikings-quiz/blob/main/github-static/quiz_screens.png" /></p>
