@@ -1,0 +1,49 @@
+name: vikings_quiz
+description: Quiz game for the Flutter Vikings event
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.10.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_bloc: ^6.1.0
+  hydrated_bloc: ^6.0.3
+  bloc_test: ^7.1.0
+  equatable: ^1.2.5
+
+  flutter_svg: ^0.19.1
+  path_provider: ^1.6.22
+  dio: ^3.0.10
+  provider: ^4.3.2+2
+
+  firebase_core: ^0.5.2
+  cloud_firestore: ^0.14.3
+  firebase_auth: ^0.18.0+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_driver:
+    sdk: flutter
+
+  test: ^1.15.4
+  mockito: ^4.1.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+  fonts:
+    - family: GrenzeGotisch
+      fonts:
+        - asset: fonts/GrenzeGotisch-Bold.ttf
+        - asset: fonts/GrenzeGotisch-Regular.ttf
+        - asset: fonts/GrenzeGotisch-Light.ttf
+        - asset: fonts/GrenzeGotisch-Medium.ttf

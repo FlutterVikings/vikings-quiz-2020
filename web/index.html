@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Quiz game for the Flutter Vikings event">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="vikings_quiz">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>vikings_quiz</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-firestore.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyBUFjNN3Gpvr2ZPpe0HCXnjuTnwidEarbE",
+      authDomain: "flutter-vikings.firebaseapp.com",
+      databaseURL: "https://flutter-vikings.firebaseio.com",
+      projectId: "flutter-vikings",
+      storageBucket: "flutter-vikings.appspot.com",
+      messagingSenderId: "280901274179",
+      appId: "1:280901274179:web:71533cf75d227dc3b7e2f6"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('flutter-first-frame', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js');
+      });
+    }
+  </script>
+
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>
